@@ -64,10 +64,10 @@ function processCallSheetEmails() {
 }
 
 // Replace YOUR_PUSHCUT_API_KEY with the API Key you generated in step 3
-var PUSHCUT_API_KEY = 'L4JFtSM2XlN1ahHHGEENz0ik';
+var PUSHCUT_API_KEY = 'YOUR_PUSHCUT_API_KEY';
 
 function sendPushcutNotification() {
-  var url = "https://api.pushcut.io/lG0iYds-RD8J9DYBe7M2l/notifications/opencallsheet";
+  var url = "<edited out for github";
   
   var headers = {
     "Authorization": "Bearer " + PUSHCUT_API_KEY,
